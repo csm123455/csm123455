@@ -1,12 +1,12 @@
 <div align="center">
   
-# 안녕하세요, 클라우드 네이티브 백엔드 개발자 조성민입니다. 👋
-### 코드를 클라우드에 배포하고, 안정적으로 운영하는 경험을 사랑합니다.
+# 안녕하세요, 클라우드 엔지니어 조성민입니다. 👋
+### 안정성과 확장성을 모두 갖춘 클라우드 플랫폼을 구축하고 자동화합니다.
 
 <p>
-  MSA 환경에서 발생하는 복잡한 문제들을 마주하고, 데이터 기반의 트러블슈팅을 통해 해결하는 과정에서 성장합니다.
+  Terraform(IaC)을 통해 인프라를 코드로 관리하고, Kubernetes 기반의 컨테이너 플랫폼 위에서 애플리케이션이 안정적으로 동작하는 환경을 만듭니다.
   <br>
-  Terraform(IaC)으로 인프라를 구축하고, Kubernetes 위에서 애플리케이션을 운영하며,CI/CD 파이프라인을 통해 배포를 자동화한 경험을 가지고 있습니다.
+  대규모 트래픽 환경에서 발생하는 복잡한 문제를 데이터 기반으로 해결하고, GitOps 워크플로우를 적용한 CI/CD 파이프라인으로 배포 과정을 자동화하는 데 깊은 흥미를 가지고 있습니다.
 </p>
 
 <p>
@@ -32,6 +32,20 @@
 
 <br/>
 
+### 🚬 Smokezone: 흡연구역 정보 공유 웹 서비스
+**사용자 참여 기반의 흡연구역 정보 공유 웹 서비스 백엔드를 개발하여 포트폴리오를 구성했습니다.**
+- **My Role & Contributions**:
+  - **Spring Security 기반의 JWT 인증 및 OAuth2 소셜 로그인(카카오, 구글) 기능 구현**
+  - **흡연구역 정보 CRUD API 개발 및 AWS S3를 연동한 이미지 업로드/관리 기능 구현**
+  - **Querydsl을 활용하여 동적 검색 쿼리 및 복잡한 조회 로직의 성능과 가독성 개선**
+  - **Redis를 활용하여 Refresh Token을 관리하고 이메일 인증 코드 저장 로직 구현**
+  - **Docker & Docker Compose를 통한 개발 환경 컨테이너화 및 GitHub Actions 기반 CI 파이프라인 구축**
+- **Tech Stack**: `Java 17`, `Spring Boot`, `Spring Security`, `JPA`, `Querydsl`, `MySQL`, `Redis`, `AWS S3`, `Docker`, `GitHub Actions`
+<br/>
+프로젝트 상세보기 : <a href="https://github.com/csm123455/Smokezone"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+
+<br/>
+
 ### 🚢 AWS 기반 웹 서비스 배포 자동화
 **수동 배포의 비효율성을 개선하고 배포 안정성을 확보하기 위해 CI/CD 파이프라인을 구축했습니다.**
 - **My Role & Contributions**:
@@ -52,22 +66,21 @@
   - **서버 배포를 통해 웹 서비스 동작 원리 학습**
 - **Tech Stack**: `Spring Boot`, `JPA`, `MySQL`, `HTML`, `JavaScript`
 <br/>
-프로젝트 상세보기 : <a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=1f544860a4f48080a2fde7549105b848&pm=c"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+프로젝트 상세보기 : <a href="https://www.notion.so/likelion/1f544860a4f48080a2fde7549105b848?p=1f544860a4f48080a2fde7549105b848&pm=c"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
 
 ---
 
 ### 📚 Studying & Interests
-- **클라우드 네이티브 아키텍처 심화**:
-  - Kubernetes 환경에서의 애플리케이션 운영 및 트러블슈팅 경험 확장
-  - Terraform을 이용한 IaC(Infrastructure as Code) 원칙 적용 및 CI/CD 파이프라인 최적화
-- **대용량 트래픽 처리**:
-  - 데이터 특성에 맞는 RDB/NoSQL 데이터베이스 모델링 및 쿼리 튜닝
-  - Redis 등 캐싱 전략을 통한 시스템 성능 개선 및 부하 분산 연구
-- **객체지향 설계와 클린 코드**:
-  - Effective Java, 객체지향의 사실과 오해 등을 읽으며 더 나은 코드 구조에 대해 고민
-  - 유지보수하기 좋고 테스트 가능한 코드를 작성하기 위해 노력
-- **Algorithm**:
-  - 문제 해결 능력과 CS 기본기를 다지기 위해 꾸준히 알고리즘 문제 풀이
+- **MSA & Cloud Native Architecture**:
+  - Kubernetes 심화 패턴(Operator, CRD)을 학습하고, 프로메테우스와 그라파나를 활용한 실시간 모니터링 및 트러블슈팅 역량을 강화하고 있습니다.
+  - Terraform 모듈화를 통해 재사용 가능한 인프라 코드를 작성하고, GitOps 워크플로우를 고도화하는 방법을 연구합니다.
+- **Building for Scale: High-Performance Systems**:
+  - 다양한 캐싱 전략(e.g., Look-aside, Write-through)을 실제 시나리오에 적용하며 시스템 응답 속도를 개선하는 방법을 탐구합니다.
+  - 메시지 큐(Kafka)를 활용한 비동기 처리와 데이터 파이프라인을 구축하여 시스템의 부하를 분산하고 안정성을 높이는 데 관심이 많습니다.
+- **Crafting Quality Code**:
+  - TDD(Test-Driven Development)와 도메인 주도 설계(DDD) 원칙을 개인 프로젝트에 적용하며, 테스트 가능하고 유연한 코드 구조를 만드는 연습을 꾸준히 하고 있습니다.
+- **Algorithm & CS Fundamentals**:
+  - 문제 해결 능력과 CS 기본기를 다지기 위해 꾸준히 알고리즘 문제를 풀이하며 탄탄한 기반을 다지고 있습니다.
 
 ---
 
@@ -97,7 +110,7 @@
   </tr>
   <tr>
     <td align="center">
-      <strong>Database & Message Queue</strong>
+      <strong>Database & MQ</strong>
     </td>
     <td>
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
@@ -116,25 +129,36 @@
       <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
       <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white"/>
       <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
       <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Monitoring</strong>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
     </td>
   </tr>
 </table>
 
 ---
  
-### 🤝 Collaboration Tools
+### 🤝 Collaboration & Tools
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SpringToolSuite4-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
 </p>
 
 ---
