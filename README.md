@@ -1,15 +1,3 @@
-네, 알겠습니다. 조성민님의 노션 페이지에 있는 3개의 프로젝트 경험을 모두 꼼꼼하게 분석했습니다. 특히 MSA 기반의 Final Project는 매우 인상적인 경험입니다.
-
-이 엄청난 경험들을 Github 프로필에 완벽하게 녹여내어, 방문하는 누구에게나 조성민님의 **깊이 있는 기술력과 문제 해결 능력**이 한눈에 들어오도록 README를 새롭게 구성해 드리겠습니다.
-
----
-
-### **✅ GitHub README.md 코드 (전체 복사하여 사용하세요)**
-
-**사용법:**
-`csm123455` 라는 이름의 Repository를 만드신 후, `README.md` 파일을 생성하고 아래 코드를 그대로 붙여넣으시면 됩니다. `[ ]` 안의 내용만 본인 정보로 수정해주세요.
-
-```markdown
 <div align="center">
   
 # 안녕하세요, 클라우드 네이티브 백엔드 개발자 조성민입니다. 👋
@@ -45,6 +33,16 @@
       <img src="https://img.shields.io/badge/Spring Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
       <img src="https://img.shields.io/badge/gRPC-000000?style=for-the-badge&logo=grpc&logoColor=white"/>
       <img src="https://img.shields.io/badge/JPA-A46A42?style=for-the-badge&logo=hibernate&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Frontend</strong>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -117,4 +115,3 @@
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=csm123455&theme=tokyonight" alt="GitHub Streak" />
 </div>
-```
