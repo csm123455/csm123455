@@ -20,58 +20,58 @@
 
 ## 🚀 Build Projects
 
-### 🛍️ MSA-based Real-time E-commerce Platform
-**대규모 트래픽에도 안정적이고 확장 가능한 서비스를 목표로, MSA 구조의 중고거래 플랫폼을 설계하고 구축했습니다.**
+### 🗺️ Map.zip: 장거리 이동 맞춤형 AI 맛집 추천 서비스
+**MSA 구조와 AI 추천 시스템을 결합하여, 사용자의 장거리 이동 경로와 스케줄에 최적화된 맛집을 추천하는 플랫폼을 구축했습니다.**
 - **My Role & Contributions**:
-  - **주요 도메인(회원, 상품, 주문) 마이크로서비스 API 서버 설계 및 개발**
-  - **Terraform(IaC)을 활용한 AWS EKS 클러스터 및 클라우드 인프라(VPC, MSK, Aurora 등) 설계/구축**
-  - **GitHub Actions, ArgoCD 기반의 GitOps CI/CD 파이프라인 구축 및 배포 자동화**
-  - **Istio 서비스 메쉬를 도입하여 mTLS 암호화 및 트래픽 제어, 모니터링 환경 구현**
+  - **AI 추천, 사용자, 장소 등 핵심 도메인별 마이크로서비스 API 설계 및 개발**
+  - **Terraform(IaC) 기반 AWS EKS 클러스터 및 VPC, MSK, Aurora 등 클라우드 인프라 아키텍처 설계 및 구축**
+  - **GitHub Actions와 ArgoCD를 연동한 GitOps 기반 CI/CD 파이프라인 구축으로 배포 자동화**
+  - **Istio 서비스 메쉬를 도입하여 MSA 환경의 트래픽 제어, mTLS 암호화 및 통합 모니터링 시스템 구현**
 - **Tech Stack**: `Spring Boot & Cloud`, `gRPC`, `Kafka`, `MySQL`, `Redis`, `DynamoDB`, `AWS EKS`, `Terraform`, `Istio`, `ArgoCD`
 <br/>
-프로젝트 상세보기 : <a href="https://www.notion.so/likelion/CLD3-Final-4-23244860a4f480699abecc33952f04ee?p=25344860a4f480e994e7ea34ff53a849&pm=s"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+<a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=25344860a4f480e994e7ea34ff53a849&pm=s"><img src="https://img.shields.io/badge/Project_Details-Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+<a href="https://github.com/CLD3rd-Team4/App"><img src="https://img.shields.io/badge/Application_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://github.com/CLD3rd-Team4/Infra"><img src="https://img.shields.io/badge/Infrastructure_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
 <br/>
 
-### 🚬 Smokezone: A Smoking Area Information Sharing Application
-**Kotlin으로 안드로이드 앱을 개발하고, Spring Boot로 백엔드 서버를 구축하여 사용자 참여형 흡연구역 정보 공유 서비스를 완성했습니다.**
+### 🎶 Jazz LP E-commerce Platform: 재즈 LP 중고거래 플랫폼
+**재즈 LP 매니아를 위한 중고거래 플랫폼을 구축하고, 안정적인 서비스 운영을 위해 CI/CD 배포 자동화 파이프라인을 설계했습니다.**
 - **My Role & Contributions**:
-  - **[Android - Client]**
-    - **Kotlin 및 Android Studio를 활용하여 네이티브 안드로이드 앱의 UI/UX 설계 및 개발**
-    - **Retrofit2 라이브러리를 이용한 REST API 통신 및 서버 데이터 연동 구현**
-    - **사용자 위치 기반 흡연구역 정보 조회 및 지도 연동 기능 개발**
-  - **[Backend - Server]**
-    - **Spring Security 기반 JWT 인증 및 OAuth2 소셜 로그인(카카오, 구글) 기능 구현**
-    - **흡연구역 CRUD API 개발 및 AWS S3를 연동한 이미지 업로드/관리 기능 구현**
-    - **Querydsl을 활용하여 동적 검색 쿼리 및 복잡한 조회 로직의 성능과 가독성 개선**
-    - **Redis를 활용하여 Refresh Token 관리 및 이메일 인증 코드 저장**
+  - **GitHub Actions를 활용하여 코드 Push 시 자동 빌드, 테스트, 컨테이너 이미지 빌드 및 푸시 자동화**
+  - **AWS CodeDeploy, S3, EC2를 연동하여 Blue/Green 무중단 배포 파이프라인 구축**
+  - **React 기반의 프론트엔드 정적 파일을 S3와 CloudFront(CDN)로 배포하여 로딩 속도 최적화**
+  - **Terraform을 사용하여 EC2, ALB, Route53 등 AWS 인프라를 코드로 관리**
+- **Tech Stack**: `Spring Boot`, `React`, `AWS (EC2, S3, CloudFront, CodeDeploy, Route53)`, `Terraform`, `GitHub Actions`
+<br/>
+<a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=22a44860a4f4803bb60cf51c5424d90f&pm=c"><img src="https://img.shields.io/badge/Project_Details-Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+<a href="https://github.com/CLD-3rd/team1-infra/tree/dev"><img src="https://img.shields.io/badge/Infrastructure_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://github.com/CLD-3rd/team1-manifest/tree/dev"><img src="https://img.shields.io/badge/Manifest_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+
+<br/>
+
+### 🚬 Smokezone: 흡연구역 정보 공유 애플리케이션
+**Kotlin으로 안드로이드 앱을 개발하고 Spring Boot로 백엔드 서버를 구축하여, 사용자 참여형 흡연구역 정보 공유 서비스를 완성했습니다.**
+- **My Role & Contributions**:
+  - **[Android] Kotlin 기반 네이티브 앱 UI/UX 설계 및 개발, Retrofit2를 이용한 서버 API 연동**
+  - **[Backend] Spring Security 기반 JWT 인증 및 OAuth2 소셜 로그인(카카오, 구글) 기능 구현**
+  - **흡연구역 정보 CRUD API 개발 및 AWS S3를 연동한 이미지 업로드/관리 기능 구현**
+  - **Querydsl을 활용한 동적 검색 기능 구현 및 Redis를 통한 Refresh Token 관리**
 - **Tech Stack**: `Kotlin`, `Android Studio`, `Retrofit2`, `Java 17`, `Spring Boot`, `JPA`, `Querydsl`, `MySQL`, `Redis`, `AWS S3`, `Docker`
 <br/>
-프로젝트 상세보기 : <a href="https://github.com/csm123455/Smokezone"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://github.com/csm123455/Smokezone"><img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
 <br/>
 
-### 🚢 Automated Web Service Deployment on AWS
-**수동 배포의 비효율성을 개선하고 배포 안정성을 확보하기 위해 CI/CD 파이프라인을 구축했습니다.**
+### 📚 Study Room Management: 스터디룸 예약 및 알림 서비스
+**스터디룸의 예약 및 관리를 위한 백엔드 시스템을 개발하고, FCM을 통해 사용자에게 실시간 예약 알림을 제공하는 기능을 구현했습니다.**
 - **My Role & Contributions**:
-  - **GitHub Actions를 CI 툴로 사용하여 코드 Push 시 자동 빌드/테스트 파이프라인 구성**
-  - **AWS CodeDeploy, S3를 연동하여 EC2 서버에 Blue/Green 무중단 배포 파이프라인 구축**
-  - **정적 프론트엔드 자산을 S3와 CloudFront(CDN)를 통해 배포하여 로딩 속도 최적화**
-- **Tech Stack**: `Spring Boot`, `React`, `AWS (EC2, S3, CloudFront, CodeDeploy, Route53)`, `GitHub Actions`
+  - **Spring Boot, JPA를 활용한 스터디룸 예약/조회/수정/삭제 API 개발**
+  - **Firebase Cloud Messaging(FCM)을 연동하여 예약 변동 시 사용자에게 푸시 알림 전송 기능 구현**
+- **Tech Stack**: `Spring Boot`, `JPA`, `MySQL`, `FCM`
 <br/>
-프로젝트 상세보기 : <a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=22a44860a4f4803bb60cf51c5424d90f&pm=c"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
-
-<br/>
-
-### 🌱 Fundamentals of Web Development: Spring Boot Bulletin Board
-**HTTP, Spring Boot CRUD, 배포의 웹 개발 전체 사이클을 처음부터 끝까지 경험한 프로젝트입니다.**
-- **Learnings**:
-  - **Spring Boot, JPA를 활용한 기본적인 게시판 CRUD 기능 구현**
-  - **MySQL 데이터베이스 연동 및 데이터 관리**
-  - **서버 배포를 통해 웹 서비스 동작 원리 학습**
-- **Tech Stack**: `Spring Boot`, `JPA`, `MySQL`, `HTML`, `JavaScript`
-<br/>
-프로젝트 상세보기 : <a href="https://www.notion.so/likelion/1f544860a4f48080a2fde7549105b848?p=1f544860a4f48080a2fde7549105b848&pm=c"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+<a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=1f544860a4f48080a2fde7549105b848&pm=c"><img src="https://img.shields.io/badge/Project_Details-Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+<a href="https://github.com/CLD-3rd/infra-team4"><img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
 ---
 
@@ -147,40 +147,4 @@
     <td>
       <img src="https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white"/>
       <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-    </td>
-  </tr>
-</table>
-
----
- 
-### 🤝 Collaboration & Tools
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-</p>
-
----
- 
-### 📫 Contact
-EMAIL : csm123455@gmail.com
-<br/>
-PORTFOLIO : https://csm123455.github.io
-
----
-
-## 📊 My GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=csm123455&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="csm123455's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=csm123455&layout=compact&langs_count=10&theme=tokyonight" alt="Top Languages" />
-</div>
+      <img src="https://img.shields.io/badge/Grafan
