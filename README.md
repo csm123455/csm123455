@@ -18,9 +18,9 @@
 
 ---
 
-## 🚀 개발 프로젝트
+## 🚀 Build Projects
 
-### 🛍️ MSA 기반 실시간 중고거래 플랫폼 구축
+### 🛍️ MSA-based Real-time E-commerce Platform
 **대규모 트래픽에도 안정적이고 확장 가능한 서비스를 목표로, MSA 구조의 중고거래 플랫폼을 설계하고 구축했습니다.**
 - **My Role & Contributions**:
   - **주요 도메인(회원, 상품, 주문) 마이크로서비스 API 서버 설계 및 개발**
@@ -33,7 +33,7 @@
 
 <br/>
 
-### 🚬 Smokezone: 흡연구역 정보 공유 애플리케이션
+### 🚬 Smokezone: A Smoking Area Information Sharing Application
 **Kotlin으로 안드로이드 앱을 개발하고, Spring Boot로 백엔드 서버를 구축하여 사용자 참여형 흡연구역 정보 공유 서비스를 완성했습니다.**
 - **My Role & Contributions**:
   - **[Android - Client]**
@@ -51,7 +51,7 @@
 
 <br/>
 
-### 🚢 AWS 기반 웹 서비스 배포 자동화
+### 🚢 Automated Web Service Deployment on AWS
 **수동 배포의 비효율성을 개선하고 배포 안정성을 확보하기 위해 CI/CD 파이프라인을 구축했습니다.**
 - **My Role & Contributions**:
   - **GitHub Actions를 CI 툴로 사용하여 코드 Push 시 자동 빌드/테스트 파이프라인 구성**
@@ -63,7 +63,7 @@
 
 <br/>
 
-### 🌱 웹 개발 기초 다지기: Spring Boot 게시판
+### 🌱 Fundamentals of Web Development: Spring Boot Bulletin Board
 **HTTP, Spring Boot CRUD, 배포의 웹 개발 전체 사이클을 처음부터 끝까지 경험한 프로젝트입니다.**
 - **Learnings**:
   - **Spring Boot, JPA를 활용한 기본적인 게시판 CRUD 기능 구현**
@@ -89,7 +89,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technical Skills
 <table>
   <tr>
     <td align="center" width="160">
