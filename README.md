@@ -6,53 +6,68 @@
 <p>
   MSA 환경에서 발생하는 복잡한 문제들을 마주하고, 데이터 기반의 트러블슈팅을 통해 해결하는 과정에서 성장합니다.
   <br>
-  Terraform(IaC)으로 인프라를 구축하고, Kubernetes 위에서 애플리케이션을 운영하며, CI/CD 파이프라인을 통해 배포를 자동화한 경험을 가지고 있습니다.
+  Terraform(IaC)으로 인프라를 구축하고, Kubernetes 위에서 애플리케이션을 운영하며,CI/CD 파이프라인을 통해 배포를 자동화한 경험을 가지고 있습니다.
 </p>
 
 <p>
   <a href="mailto:csm123455@gmail.com"><img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://csm123455.github.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-25D366?style=for-the-badge&logo=wechat&logoColor=white"></a>
-  <a href="[https://linkedin.com/in/your-profile]" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 개발 프로젝트
 
-### 🛍️ MSA 기반 실시간 중고거래 플랫폼 구축 (Final Project)
+### 🛍️ MSA 기반 실시간 중고거래 플랫폼 구축
 **대규모 트래픽에도 안정적이고 확장 가능한 서비스를 목표로, MSA 구조의 중고거래 플랫폼을 설계하고 구축했습니다.**
-
 - **My Role & Contributions**:
   - **주요 도메인(회원, 상품, 주문) 마이크로서비스 API 서버 설계 및 개발**
   - **Terraform(IaC)을 활용한 AWS EKS 클러스터 및 클라우드 인프라(VPC, MSK, Aurora 등) 설계/구축**
   - **GitHub Actions, ArgoCD 기반의 GitOps CI/CD 파이프라인 구축 및 배포 자동화**
   - **Istio 서비스 메쉬를 도입하여 mTLS 암호화 및 트래픽 제어, 모니터링 환경 구현**
-- **Troubleshooting & Achievements**:
-  - **`문제`**: `k6` 부하 테스트 중, 상품 조회 API에서 DB 과부하로 인한 지연 시간 급증(3000ms 이상) 현상 발견
-  - **`해결`**: CloudWatch, Prometheus 지표 분석으로 병목 지점 확인 후, `ElasticCache for Redis`를 도입하여 DB 조회 결과를 캐싱하는 아키텍처로 개선
-  - **`성과`**: **API 평균 응답 속도를 350ms로 단축하여 약 88%의 성능 개선 달성**
 - **Tech Stack**: `Spring Boot & Cloud`, `gRPC`, `Kafka`, `MySQL`, `Redis`, `DynamoDB`, `AWS EKS`, `Terraform`, `Istio`, `ArgoCD`
-- **Links**: `[자세한 회고록/Notion 링크]` `[GitHub Repository 링크]`
+<br/>
+프로젝트 상세보기 : <a href="https://www.notion.so/likelion/CLD3-Final-4-23244860a4f480699abecc33952f04ee?p=25344860a4f480e994e7ea34ff53a849&pm=s"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
 
 <br/>
 
-### 🚢 AWS 기반 웹 서비스 배포 자동화 (Mid Project)
+### 🚢 AWS 기반 웹 서비스 배포 자동화
 **수동 배포의 비효율성을 개선하고 배포 안정성을 확보하기 위해 CI/CD 파이프라인을 구축했습니다.**
-
 - **My Role & Contributions**:
   - **GitHub Actions를 CI 툴로 사용하여 코드 Push 시 자동 빌드/테스트 파이프라인 구성**
   - **AWS CodeDeploy, S3를 연동하여 EC2 서버에 Blue/Green 무중단 배포 파이프라인 구축**
   - **정적 프론트엔드 자산을 S3와 CloudFront(CDN)를 통해 배포하여 로딩 속도 최적화**
 - **Tech Stack**: `Spring Boot`, `React`, `AWS (EC2, S3, CloudFront, CodeDeploy, Route53)`, `GitHub Actions`
-- **Links**: `[자세한 회고록/Notion 링크]` `[GitHub Repository 링크]`
+<br/>
+프로젝트 상세보기 : <a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=22a44860a4f4803bb60cf51c5424d90f&pm=c"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+
+<br/>
+
+### 🌱 웹 개발 기초 다지기: Spring Boot 게시판
+**HTTP, Spring Boot CRUD, 배포의 웹 개발 전체 사이클을 처음부터 끝까지 경험한 프로젝트입니다.**
+- **Learnings**:
+  - **Spring Boot, JPA를 활용한 기본적인 게시판 CRUD 기능 구현**
+  - **MySQL 데이터베이스 연동 및 데이터 관리**
+  - **서버 배포를 통해 웹 서비스 동작 원리 학습**
+- **Tech Stack**: `Spring Boot`, `JPA`, `MySQL`, `HTML`, `JavaScript`
+<br/>
+프로젝트 상세보기 : <a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=1f544860a4f48080a2fde7549105b848&pm=c"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
 
 ---
 
-### 📚 Studying
-- **Kubernetes**: 컨테이너 오케스트레이션 심화 학습 및 운영 경험 확장
-- **Effective Java**: 더 나은 Java 코드를 위한 원칙 학습
-- **Algorithm**: 문제 해결 능력 향상을 위한 꾸준한 코딩 테스트 풀이
+### 📚 Studying & Interests
+- **클라우드 네이티브 아키텍처 심화**:
+  - Kubernetes 환경에서의 애플리케이션 운영 및 트러블슈팅 경험 확장
+  - Terraform을 이용한 IaC(Infrastructure as Code) 원칙 적용 및 CI/CD 파이프라인 최적화
+- **대용량 트래픽 처리**:
+  - 데이터 특성에 맞는 RDB/NoSQL 데이터베이스 모델링 및 쿼리 튜닝
+  - Redis 등 캐싱 전략을 통한 시스템 성능 개선 및 부하 분산 연구
+- **객체지향 설계와 클린 코드**:
+  - Effective Java, 객체지향의 사실과 오해 등을 읽으며 더 나은 코드 구조에 대해 고민
+  - 유지보수하기 좋고 테스트 가능한 코드를 작성하기 위해 노력
+- **Algorithm**:
+  - 문제 해결 능력과 CS 기본기를 다지기 위해 꾸준히 알고리즘 문제 풀이
 
 ---
 
@@ -116,6 +131,7 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
   <img src="https://img.shields.io/badge/SpringToolSuite4-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
@@ -124,8 +140,9 @@
 ---
  
 ### 📫 Contact
-- **Email**: csm123455@gmail.com
-- **Portfolio**: https://csm123455.github.io
+EMAIL : csm123455@gmail.com
+<br/>
+PORTFOLIO : https://csm123455.github.io
 
 ---
 
@@ -135,6 +152,4 @@
   <img src="https://github-readme-stats.vercel.app/api?username=csm123455&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="csm123455's GitHub stats" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=csm123455&layout=compact&langs_count=10&theme=tokyonight" alt="Top Languages" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=csm123455&theme=tokyonight" alt="GitHub Streak" />
 </div>
