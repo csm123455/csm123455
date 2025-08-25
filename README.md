@@ -25,6 +25,16 @@
 <table>
   <tr>
     <td align="center" width="160">
+      <strong>Frontend</strong>
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <strong>Backend</strong>
     </td>
     <td>
@@ -33,16 +43,6 @@
       <img src="https://img.shields.io/badge/Spring Cloud-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
       <img src="https://img.shields.io/badge/gRPC-000000?style=for-the-badge&logo=grpc&logoColor=white"/>
       <img src="https://img.shields.io/badge/JPA-A46A42?style=for-the-badge&logo=hibernate&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Frontend</strong>
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
     </td>
   </tr>
   <tr>
