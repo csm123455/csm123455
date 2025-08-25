@@ -10,8 +10,9 @@
 </p>
 
 <p>
-  <a href="mailto:csm123455@gmail.com"><img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
   <a href="https://csm123455.github.io" target="_blank"><img src="https://img.shields.io/badge/Portfolio-25D366?style=for-the-badge&logo=wechat&logoColor=white"></a>
+  <a href="https://memo0051.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Blog-F74C02?style=for-the-badge&logo=tistory&logoColor=white"></a>
+  <a href="https://www.notion.so/1c290cdc092e80519852ec8ad4252243" target="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
 </p>
 </div>
 
@@ -32,15 +33,19 @@
 
 <br/>
 
-### 🚬 Smokezone: 흡연구역 정보 공유 웹 서비스
-**사용자 참여 기반의 흡연구역 정보 공유 웹 서비스 백엔드를 개발하여 포트폴리오를 구성했습니다.**
+### 🚬 Smokezone: 흡연구역 정보 공유 애플리케이션
+**Kotlin으로 안드로이드 앱을 개발하고, Spring Boot로 백엔드 서버를 구축하여 사용자 참여형 흡연구역 정보 공유 서비스를 완성했습니다.**
 - **My Role & Contributions**:
-  - **Spring Security 기반의 JWT 인증 및 OAuth2 소셜 로그인(카카오, 구글) 기능 구현**
-  - **흡연구역 정보 CRUD API 개발 및 AWS S3를 연동한 이미지 업로드/관리 기능 구현**
-  - **Querydsl을 활용하여 동적 검색 쿼리 및 복잡한 조회 로직의 성능과 가독성 개선**
-  - **Redis를 활용하여 Refresh Token을 관리하고 이메일 인증 코드 저장 로직 구현**
-  - **Docker & Docker Compose를 통한 개발 환경 컨테이너화 및 GitHub Actions 기반 CI 파이프라인 구축**
-- **Tech Stack**: `Java 17`, `Spring Boot`, `Spring Security`, `JPA`, `Querydsl`, `MySQL`, `Redis`, `AWS S3`, `Docker`, `GitHub Actions`
+  - **[Android - Client]**
+    - **Kotlin 및 Android Studio를 활용하여 네이티브 안드로이드 앱의 UI/UX 설계 및 개발**
+    - **Retrofit2 라이브러리를 이용한 REST API 통신 및 서버 데이터 연동 구현**
+    - **사용자 위치 기반 흡연구역 정보 조회 및 지도 연동 기능 개발**
+  - **[Backend - Server]**
+    - **Spring Security 기반 JWT 인증 및 OAuth2 소셜 로그인(카카오, 구글) 기능 구현**
+    - **흡연구역 CRUD API 개발 및 AWS S3를 연동한 이미지 업로드/관리 기능 구현**
+    - **Querydsl을 활용하여 동적 검색 쿼리 및 복잡한 조회 로직의 성능과 가독성 개선**
+    - **Redis를 활용하여 Refresh Token 관리 및 이메일 인증 코드 저장**
+- **Tech Stack**: `Kotlin`, `Android Studio`, `Retrofit2`, `Java 17`, `Spring Boot`, `JPA`, `Querydsl`, `MySQL`, `Redis`, `AWS S3`, `Docker`
 <br/>
 프로젝트 상세보기 : <a href="https://github.com/csm123455/Smokezone"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
@@ -88,9 +93,11 @@
 <table>
   <tr>
     <td align="center" width="160">
-      <strong>Frontend</strong>
+      <strong>Mobile & Frontend</strong>
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"/>
       <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
       <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -156,7 +163,7 @@
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
   <br/>
-  <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 </p>
