@@ -70,7 +70,7 @@
   - **Firebase Cloud Messaging(FCM)을 연동하여 예약 변동 시 사용자에게 푸시 알림 전송 기능 구현**
 - **Tech Stack**: `Spring Boot`, `JPA`, `MySQL`, `FCM`
 <br/>
-<a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=1f544860a4f48080a2fde7549105b848&pm=c"><img src="https://img.shields.io/badge/Project_Details-Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
+<a href="https://www.notion.so/likelion/1f444860a4f480339472e6f8743816aa?p=1f544860a4f48080a2fde7549105b848&pm=c&pvs=25#1f644860a4f4808882aacc41365565be"><img src="https://img.shields.io/badge/Project_Details-Notion-000000?style=for-the-badge&logo=notion&logoColor=white"></a>
 <a href="https://github.com/CLD-3rd/infra-team4"><img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 
 ---
